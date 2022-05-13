@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "13ac5a1e-31d9-4835-aa62-4180085fd149",
+		"name": "API-Collection-Abdul_Aabid_Khan",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "mile3",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "mile4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "https://reqres.in/api/users"
+			},
+			"response": []
+		},
+		{
+			"name": "putMile5",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

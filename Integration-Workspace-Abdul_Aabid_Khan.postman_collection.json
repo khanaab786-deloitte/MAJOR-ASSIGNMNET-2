@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "bb8d124e-b1da-4f41-98cc-4f06f380ab99",
+		"name": "Integration-Workspace-Abdul_Aabid_Khan",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getMile1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://hu-major-assignment.us-e2.cloudhub.io/users"
+			},
+			"response": []
+		},
+		{
+			"name": "postMile2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"post_id\": 2003 }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://hu-major-assignment.us-e2.cloudhub.io/userdetails"
+			},
+			"response": []
+		},
+		{
+			"name": "getMile3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://hu-major-assignment.us-e2.cloudhub.io/userid"
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,24 @@
+#%RAML 1.0
+types:
+  getResponseDataMile3:
+    properties:
+      Name:
+        example: Gorakhanatha Chaturvedi
+        type: string
+      Status:
+        example: active
+        type: string
+      Gender:
+        example: female
+        type: string
+title: abdul aabid khan mile3
+mediaType:
+  - application/json
+protocols:
+  - HTTP
+/milestone3:
+  get:
+    responses:
+      "200":
+        body:
+          type: getResponseDataMile3
